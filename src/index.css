@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+ background-color : #D7D7D7;
+ background-color: #fdfdfd;
+overflow: initial;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.anim-items{
+  transform: translateX(-100%);
+  transition: all 2s;
+  opacity: 0;
+}
+.anim-items.active{
+  transform: translateX(0);
+  opacity: 1;
+}
+.anim-skills{
+  transform: translateX(-100%);
+  transition: all 2s;
+  opacity: 0;
+}
+.anim-skills.active2{
+  transform: translateX(0);
+  opacity: 1;
+}

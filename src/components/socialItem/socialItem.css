@@ -1,0 +1,37 @@
+.social{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.tel a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.socials{
+    display: flex;
+    align-items: center;
+}
+.socials img{
+    width: 25px;
+
+}
+.social:last-child{
+    margin-right: 0;
+}
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+    .socials{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        margin-right: 25px;
+    }
+    .tel a{
+        margin-bottom: 5%;
+    }
+ }  

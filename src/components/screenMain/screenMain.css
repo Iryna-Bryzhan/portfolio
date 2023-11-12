@@ -1,0 +1,299 @@
+.screen-main{
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.info-lef{
+    width: 50%;
+}
+
+.info-right {
+    height: 100vh;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.info-right img{
+    position: absolute;
+    box-sizing: border-box;
+}
+.info-right > .myPhoto{
+    position: absolute;
+    width: 60%;
+    top: 15%;
+    right: 10%;
+}
+.myCV{
+    text-decoration: none;
+    background-color: #0B0B0B;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    margin-bottom: 20%;
+}
+.info-left{
+    text-align: start;
+    top: 35%;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.info-left h1{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 7%;
+}
+.info-left h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 7%;
+}
+.info-left p{
+    color: #909090;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 15%;
+}
+.info-left .social{
+    color: #0B0B0B;
+}
+.info-left .social{
+    color: #0B0B0B;
+    background-color: black;
+    padding: 11px 5px 1px 5px;
+    border-radius: 5px;
+}
+.info-left .tel{
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+ 
+.screen-main {
+    flex-direction: column;
+}
+
+.info-lef{
+    width: 50%;
+}
+
+.info-right {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+}
+.info-right img{
+    display: none;
+    position: relative;
+}
+.info-right > .myPhoto{
+    display: block;
+    width: 80%;
+    top: 15%;
+
+}
+.myCV{
+    margin: 0 auto;
+    margin-bottom: 15%;
+}
+.info-left{
+    text-align: center;
+    top: 53%;
+    position: relative;
+}
+.info-left h1{
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+.info-left h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+.info-left .social{
+    margin: 0 3%;
+}
+.socials{
+    width: 80%;
+    margin: 0 auto;
+}
+.social-items{
+    width: 80%;
+}
+
+}
+@media (min-width: 481px) and (max-width: 576px) {
+
+    .screen-main {
+        flex-direction: column;
+    }
+    .info-right {
+        width: 80%;
+        margin: 0 auto;
+        position: absolute;
+        right: 10%;
+        overflow: hidden;
+    }
+    .info-right img{
+        display: none;
+        position: relative;
+    }
+    .info-right > .myPhoto{
+        display: block;
+        width: 80%;
+        top: 12%;
+    }
+    .myCV{
+        margin: 0 auto;
+        margin-bottom: 25%;
+    }
+    .info-left{
+        text-align: center;
+        top: 60%;
+    }
+    .info-left h1{
+        font-size: 45px;
+        font-weight: 800;
+        margin-bottom: 5%;
+    }
+    .info-left h3{
+        font-size: 35px;
+    }
+    .info-left .social{
+        margin: 0 3%;
+    }
+    .social-items{
+        width: 100%;
+    }
+    } 
+
+    @media (min-width: 577px)  and (max-width: 620px) {
+ 
+        .screen-main {
+            flex-direction: column;
+        }
+        
+        .info-right {
+            width: 70%;
+            margin: 0 auto;
+            position: absolute;
+            right: 15%;
+            overflow: hidden;
+        }
+        .info-right img{
+            display: none;
+            position: relative;
+        }
+        .info-right > .myPhoto{
+            display: block;
+            width: 80%;
+            top: 12%;
+        }
+        .myCV{
+            margin: 0 auto;
+            margin-bottom: 10%;
+        }
+        .info-left{
+            text-align: center;
+            top: 55%;
+        }
+        .info-left h1{
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 4%;
+        }
+        .info-left h3{
+            font-size: 38px;
+            margin-bottom: 4%;
+        }
+        .info-left p {
+            font-size: 25px;
+            font-weight: 800;
+            margin-bottom: 8%;
+        }
+        .info-left .social{
+            margin: 0 3%;
+        }
+        .social-items{
+            width: 100%;
+        }
+        }
+        @media (min-width: 621px)  and (max-width: 768px) {
+ 
+            .screen-main {
+                flex-direction: column;
+            }
+            
+            .info-right {
+                width: 60%;
+                margin: 0 auto;
+                position: absolute;
+                right: 20%;
+                overflow: hidden;
+            }
+            .info-right img{
+                display: none;
+                position: relative;
+            }
+            .info-right > .myPhoto{
+                display: block;
+                width: 80%;
+                top: 12%;
+            }
+            .myCV{
+                margin: 0 auto;
+                margin-bottom: 8%;
+            }
+            .info-left{
+                text-align: center;
+                top: 57%;
+            }
+            .info-left h1{
+                font-size: 48px;
+                font-weight: 800;
+                margin-bottom: 3%;
+            }
+            .info-left h3{
+                font-size: 38px;
+                margin-bottom: 3%;
+            }
+            .info-left p {
+                font-size: 25px;
+                font-weight: 800;
+                margin-bottom: 7%;
+            }
+            .info-left .social{
+                margin: 0 3%;
+            }
+            .social-items{
+                width: 100%;
+            }
+            }
+            @media (min-width: 769px)  and (max-width: 1200px) {
+
+                .info-right > .myPhoto{
+                    top: 30%;
+                    right: 5%;
+                }
+                .info-left h1{
+                    font-size: 55px;
+                }
+                .info-left h3{
+                    font-size: 35px;
+                }
+                .info-left p{
+                    font-size: 25px;
+                }
+            }

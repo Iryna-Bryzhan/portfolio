@@ -1,0 +1,144 @@
+#contact{
+    box-sizing: border-box;
+    padding: 7% 10% 5% 10%;
+    background-color : #f0f0f0;
+}
+.contact-content{
+    width: 50%;
+    text-align: center;
+    margin: 7% auto 0 auto;
+}
+
+.contact-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.form-message{
+    display: flex;
+    flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.form-message input,
+.form-message textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 3px solid black;
+    border-top: 0;
+    border-right: 0;
+    outline: none;
+}
+.form-message ::placeholder{
+   font-size: 16px;
+   color: #8B8B8B;
+}
+.form-message :nth-last-child(1){
+    height: 100px; 
+}
+.btn {
+    font-size: 1.5rem;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.9);
+}
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+ 
+    #contact{
+        height: auto;
+        padding-top: 30%;
+    }
+    .contact-content{
+        width: 100%;
+        margin: 15% 0;
+    }
+    
+    .form-message{
+        display: flex;
+        flex-direction: column;
+      margin-bottom: 30px;
+    }
+    
+    .form-message input,
+    .form-message textarea {
+        font-size: 16px;
+        padding: 15px;
+    }
+    .form-message ::placeholder{
+       font-size: 15px;
+    }
+    .btn {
+        padding: 10px 15px;
+    }
+ }  
+ @media (min-width: 481px)  and (max-width: 576px) {
+ 
+    #contact{
+        height: auto;
+        padding-top: 25%;
+    }
+    .contact-content{
+        width: 100%;
+        margin: 15% 0;
+    }
+    
+    .form-message{
+        display: flex;
+        flex-direction: column;
+      margin-bottom: 30px;
+    }
+    
+    .form-message input,
+    .form-message textarea {
+        font-size: 16px;
+        padding: 15px;
+    }
+    .form-message ::placeholder{
+       font-size: 15px;
+    }
+    .btn {
+        padding: 10px 15px;
+    }
+ } 
+ @media (min-width: 577px)  and (max-width: 992px) {
+ 
+    #contact{
+        height: auto;
+        padding-top: 15%;
+    }
+    .contact-content{
+        width: 80%;
+        margin: 15% auto;
+    }
+    
+    .form-message{
+        display: flex;
+        flex-direction: column;
+      margin-bottom: 30px;
+    }
+    
+    .form-message input,
+    .form-message textarea {
+        font-size: 18px;
+        padding: 15px;
+    }
+    .form-message ::placeholder{
+       font-size: 17px;
+    }
+    .btn {
+        padding: 10px 15px;
+    }
+ } 
