@@ -13,7 +13,8 @@
     "react-waypoint": "^10.3.0",
     "waypoints": "^4.0.1",
     "web-vitals": "^2.1.4",
-    "wow.js": "^1.2.2"
+    "wow.js": "^1.2.2",
+    "homepage": "etotvoyassilka"
   },
   "scripts": {
     "start": "react-scripts start",
