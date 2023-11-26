@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.332159af.css",
+    "main.js": "/static/js/main.fe13ee75.js",
+    "static/media/Screenshot_24.png": "/static/media/Screenshot_24.3431a9bf15ae7a49b4ab.png",
+    "static/media/Screenshot_1.png": "/static/media/Screenshot_1.ad91ce262818eb9c9f6f.png",
+    "static/media/Screenshot_4.png": "/static/media/Screenshot_4.faa0b8503009576883e7.png",
+    "static/media/Screenshot_3.png": "/static/media/Screenshot_3.d9f368a69c916a0c4602.png",
+    "static/media/photo_2022-03-29_16-05-30.jpg": "/static/media/photo_2022-03-29_16-05-30.0e6ef4e68bdd55be5f44.jpg",
+    "static/media/Screenshot_5.png": "/static/media/Screenshot_5.0aa99cfd7f8fa3a98910.png",
+    "static/media/free-icon-software-development-8759392.png": "/static/media/free-icon-software-development-8759392.daf1a4d39959f6f2e054.png",
+    "static/media/figma.png": "/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/free-icon-code-5964949.png": "/static/media/free-icon-code-5964949.a8280989c3d3102341f4.png",
+    "static/media/Rectangle 67.png": "/static/media/Rectangle 67.378b5528adddffecccfd.png",
+    "static/media/React.svg": "/static/media/React.5c0f7321c91f788b1bebc8facf5cef4f.svg",
+    "static/media/Sass.svg": "/static/media/Sass.dd31bc7bb07250ff5f3b7c3d1a72b98b.svg",
+    "static/media/instagram.svg": "/static/media/instagram.13f022d0066231a94eb923fe4fdfb566.svg",
+    "static/media/git.svg": "/static/media/git.3d414418732e8aa8201e74f702c6a979.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.ca0583efa07a54105aa5bd4064dc7ecf.svg",
+    "static/media/github-fill.svg": "/static/media/github-fill.aece49702216aa0fd3ebbfb2cf09d35b.svg",
+    "static/media/in.svg": "/static/media/in.0e93aa69e4200862ff29d8cf65f5221b.svg",
+    "static/media/akar-icons_github-fill.svg": "/static/media/akar-icons_github-fill.36dc0fbc093986dc6624f3ad8a37ab2a.svg",
+    "static/media/js.svg": "/static/media/js.64eec748e81312b966d20ce6ce94cc8a.svg",
+    "static/media/mail.svg": "/static/media/mail.8d641e0a85c9e8cdee9f72e8c7b6b215.svg",
+    "index.html": "/index.html",
+    "static/media/Css3.svg": "/static/media/Css3.a19585053c8ea19329458d59e5829187.svg",
+    "static/media/html5.svg": "/static/media/html5.f8fbb93d1422fa3a317ea13613e97cd7.svg",
+    "main.332159af.css.map": "/static/css/main.332159af.css.map",
+    "main.fe13ee75.js.map": "/static/js/main.fe13ee75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.332159af.css",
+    "static/js/main.fe13ee75.js"
+  ]
+}
